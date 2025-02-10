@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 1</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function darkmessage() {
+            var b = document.querySelector('.menu');
+            if (b.style.display == 'block')
+              b.style.display = 'none';
+            else
+              b.style.display = 'block'
+          }
+    </script>
+</head>
+<body>
+    <div class="up">
+        <img class="company" src="images/company.png">
+        <p class="phone1">+7(499)777-77-77 <br> +7(499)777-77-77</p>
+        <a href="#modal" class="open-modal">Обратная связь</a>
+        
+        <!-- Всплывающее окно -->
+        <div id="modal" class="modal">
+            <a href="#" class="close-modal"><img width="25px" height="25px" src="images/crest.png"></a>
+            <p class="Text">ОБРАТНАЯ СВЯЗЬ</p>
+            <form action="#">
+                <p class="info">Ваше имя*</p>
+                <input type="text" required>
+                <p class="info">Телефон*</p>
+                <input type="tel" pattern="\+[0-9]{1,4}[0-9]{1,10}" required>
+                <p class="info">Email*</p>
+                <input type="email" required>
+                <p class="info">Сообщение*</p>
+                <textarea  required></textarea>
+                <br><br><br>
+                <a><input type="submit" class="submit" value="ОТПРАВИТЬ"></a>
+            </form>
+
+        </div>
+
+        <!-- Затемнение фона -->
+        <div class="overlay"></div>
+
+    </div>
+    <div class="header">
+        <p class="header_text">Главная  |  Каталог  |  Доставка и оплата  |  Прайс-лист  |  Контакты</p>
+    </div>
+    <div class="one_image">
+        <img class="button_left" src="images/left.png">
+        <img class="button_right" src="images/right.png">
+    </div>
+    <img class="line" src="images/line.png">
+    <p class="way">Главная / Каталог / Бытовая техника</p>
+    <p class="cars">Автомобили</p>
+    <p href="#" class="bitovaya" onclick="darkmessage()">Бытовая техника</p>
+    <ul class="menu">
+        <li class="content">Микроволновки</li>
+        <li class="content">Холодильники</li>
+        <li class="content">Посудомоечные машины</li>
+        <li class="content">Чайники</li>
+    </ul>
+    <p class="spisok">Мобильная техника <br> Компьютеры <br> Одежда <br> Недвижемость</p>
+
+    <div class="cards">
+        <div class="card">
+            <img src="images/camera.png" alt="Товар">
+            <p>Самый клевый чайник, который надо купить!</p>
+            <p>1 900 р.</p>
+            <img src="images/shop_car.png" alt="Корзина">
+        </div>
+        <div class="card">
+            <img src="images/camera.png" alt="Товар">
+            <p>Самый клевый чайник, который надо купить!</p>
+            <p>1 900 р.</p>
+            <img src="images/shop_car.png" alt="Корзина">
+        </div>
+        <div class="card">
+            <img src="images/camera.png" alt="Товар">
+            <p>Самый клевый чайник, который надо купить!</p>
+            <p>1 900 р.</p>
+            <img src="images/shop_car.png" alt="Корзина">
+        </div>
+        <div class="card">
+            <img src="images/camera.png" alt="Товар">
+            <p>Самый клевый чайник, который надо купить!</p>
+            <p>1 900 р.</p>
+            <img src="images/shop_car.png" alt="Корзина">
+        </div>
+        <div class="card">
+            <img src="images/camera.png" alt="Товар">
+            <p>Самый клевый чайник, который надо купить!</p>
+            <p>1 900 р.</p>
+            <img src="images/shop_car.png" alt="Корзина">
+        </div>
+    </div>
+
+    
+    <img class="logo" src="images/logo.png">
+    <p class="price">Прайс-лист</p>
+
+    <p class="pages">1 2 3 4 5 6 7</p>
+
+    <img class="stick" src="images/line.png">
+    
+    <p class="description1">Компания «ПиксельПлюс» существует более 6 лет, за это <br>
+    время мы принимали участие в разработке более чем <br>
+    700 сайтов, поэтому может уверенно называть себя <br>
+    профессионалами. На данный момент наш коллектив <br>
+    состоит из более чем 30 сотрудников работающих в двух <br>
+    офисах  Моксве и Зеленограде, характерные для этого <br>
+    жанра мотивы: неразделенной любви, ухода, молодости, <br>
+    угасания души.</p>
+    <p class="description2">Одним из основных направлений работ нашей компании <br>
+    является поисковое продижение сайтов, на данный <br>
+    момент мы работаем с более чем 150 постоянными <br>
+    клиентами по более чем 11 000 поисковым запросам. <br>
+    При этом в работе осноной акцент мы делаем на <br>
+    качесте работ, а также же применяем собственные <br>
+    уникальные разработки в области SEO продвижения. На <br>
+    данный момент отдел SEO состоит из 9 человек под <br>
+    руководством ведущего специалиста, преимущественно <br>
+    работающих в нашем московском офисе.</p>
+
+    <div class="foter">
+        <p class="kompania">© 2012–2013 ЗАО «Компания» <br>
+        info@name.ru</p>
+    </div>
+
+    <p class="menu_2"><u>Главная<br>Каталог<br>Доставка и оплата<br>Прайс-лист<br>Контакты</u></p>
+
+   
+</body>
+</html>

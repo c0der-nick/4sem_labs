@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+.up {
+    position: absolute;
+    width: 1400px;
+    height: 231px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 2084px;
+    background: url(images/up.png);
+}
+
+.company {
+    position: absolute;
+    width: 275px;
+    height: 102px;
+    left: 209px;
+    right: 916px;
+    top: 64px;
+    bottom: 2149px;
+}
+
+.phone1 {
+    /* +7(499)777-77-77 */
+    position: absolute;
+    width: 450px;
+    height: 47px;
+    left: 779.02px;
+    right: 208.98px;
+    top: -40px;
+    bottom: 2240.27px;
+    color: rgb(118, 118, 118);
+    font-family: "Noto Sans JP", serif;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: -1px;
+    text-align: left;
+    letter-spacing: 3px;
+}
+
+/* .sviaz {
+    Обратнаясвязь 
+    position: absolute;
+    width: 170px;
+    height: 31px;
+    left: 1020px;
+    right: 209.31px;
+    top: 115px;
+    bottom: 2159.29px;
+    color: rgb(118, 118, 118);
+    font-family: "Noto Sans JP", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: -1px;
+    text-align: left;
+    border-bottom: 2px dashed;
+    cursor: pointer;
+} */
+
+.header {
+    position: absolute;
+    width: 1400px;
+    height: 82px;
+    left: 0;
+    right: 0;
+    top: 229px;
+    bottom: 2004px;
+    background: url(images/header.png);
+    z-index: 2;
+}
+
+.header_text {
+    position: absolute;
+    width: 900px;
+    height: 39px;
+    left: 244.52px;
+    right: 875.47px;
+    top: -10px;
+    bottom: 2034.28px;
+    color: white;
+    font-family: "Noto Sans JP", serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: -1;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.one_image {
+    position: absolute;
+    width: 1250px;
+    height: 464px;
+    left: 81px;
+    right: 69px;
+    top: 247px;
+    bottom: 1604px;
+    overflow: hidden;
+}
+
+.one_image::before, .one_image::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 10s ease-in-out;
+}
+
+
+.one_image::after {
+    background-image: url("images/background_1.png");
+    opacity: 0;
+    animation: bgFade 4s infinite;
+}
+
+@keyframes bgCycle {
+    0%, 33% { background-image: url("images/background_1.png"); }
+    67%, 100% { background-image: url("images/background_1.png"); }
+}
+
+@keyframes bgFade {
+    0%, 30% { opacity: 1; }
+    33%, 96% { opacity: 1; }
+}
+
+
+
+.button_left {
+    position: absolute;
+    width: 36px;
+    height: 63px;
+    left: 125px;
+    right: 1155px;
+    top: 215px;
+    bottom: 1788px;
+}
+
+.button_right {
+    position: absolute;
+    width: 36px;
+    height: 63px;
+    left: 1050px;
+    right: 1155px;
+    top: 215px;
+    bottom: 1788px;
+}
+
+.line {
+    position: absolute;
+    width: 1400px;
+    height: 0x;
+    left: 0;
+    right: 0;
+    top: 708px;
+    bottom: 1604px;
+}
+
+.way {
+    /* Главная */
+    position: absolute;
+    width: 290px;
+    height: 18px;
+    left: 210px;
+    right: 1141px;
+    top: 700px;
+    bottom: 1583.08px;
+    color: rgb(118, 118, 118);
+    font-family: "Noto Sans JP", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.cars {
+    /* Автомобили */
+    position: absolute;
+    width: 100px;
+    height: 23px;
+    left: 210px;
+    right: 1090px;
+    top: 751.43px;
+    bottom: 1540.57px;
+    color: rgb(118, 118, 118);
+    font-family: "Noto Sans JP", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: -1px;
+    text-align: left;
+}
+
+.bitovaya {
+    position: absolute;
+    width: 238px;
+    height: 23px;
+    left: 210px;
+    right: 1052px;
+    top: 785px;
+    bottom: 1510.57px;
+    color: rgb(118, 118, 118);
+    font-family: "Noto Sans JP", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: -1px;
+    text-align: left;
+}
+
+.menu {
+    /* Микроволновки */
+    position: absolute;
+    width: 175px;
+    height: 18px;
+    left: 228.94px;
+    right: 1068.06px;
+    top: 815px;
+    bottom: 1488.86px;
+    color: rgb(118, 118, 118);
+    font-family: "Noto Sans JP", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: -1px;
+
+    text-align: left;
+    display: block;
+}
+.content:hover {
+    color: black;
+}
+
+.spisok {
+    position: absolute;
+    width: 175px;
+    height: 23px;
+    left: 210px;
+    right: 1028px;
+    top: 899.43px;
+    bottom: 1392.57px;
+    color: rgb(118, 118, 118);
+    font-family: "Noto Sans JP", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: -1px;
+    text-align: left;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    position: absolute;
+    width: 771px;
+    height: 774px;
+    left: 460px;
+    top: 759px;
+}
+
+.card {
+    position: relative; /* Устанавливаем относительное позиционирование для внутренних элементов */
+    width: 252px;
+    height: 382px;
+    background-image: url(images/card.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 15px;
+}
+
+.card img:first-of-type {
+    width: 212px;
+    height: 211px;
+}
+
+.card p {
+    width: 200px;
+    text-align: left;
+    font-family: 'Noto Sans JP', serif;
+    color: rgb(118, 118, 118);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.card p:last-of-type {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.card img:last-of-type {
+    position: absolute;
+    width: 30px;
+    height: 23px;
+    right: 15px; /* Смещение от правого края */
+    bottom: 15px; /* Смещение от нижнего края */
+}
+
+
+.logo {
+    position: absolute;
+    width: 99px;
+    height: 113px;
+    left: 252px;
+    right: 1049px;
+    top: 1122px;
+    bottom: 1080px;
+}
+.price{
+    position: absolute;
+    width: 180px;
+    height: 39px;
+    left: 210px;
+    right: 1023.71px;
+    top: 1190px;
+    bottom: 1050.28px;
+    color: rgb(68, 68, 68);
+    font-family: "Noto Sans JP", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: -1px;
+    text-align: left;
+}
+
+.pages {
+    position: absolute;
+    width: 350px;
+    height: 18px;
+    left: 711.9px;
+    right: 653.1px;
+    top: 1568.78px;
+    bottom: 728.22px;
+    color: rgb(118, 118, 118);
+    font-family: "Noto Sans JP", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 19.56px;
+    text-align: left;
+}
+
+.stick {
+    position: absolute;
+    width: 782px;
+    height: 3px;
+    left: 409px;
+    right: 209px;
+    top: 1651px;
+    bottom: 661px;
+}
+
+.description1 {
+    position: absolute;
+    width: 368px;
+    height: 18px;
+    left: 410px;
+    right: 622px;
+    top: 1676.18px;
+    bottom: 620.82px;
+    color: rgb(118, 118, 118);
+    font-family: "Noto Sans JP", serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: -1px;
+    text-align: left;
+}
+.description2 {
+    position: absolute;
+    width: 369px;
+    height: 18px;
+    left: 820px;
+    right: 211px;
+    top: 1675.98px;
+    bottom: 621.02px;
+    color: rgb(118, 118, 118);
+    font-family: "Noto Sans JP", serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: -1px;
+    text-align: left;
+}
+
+.foter {
+    position: absolute;
+    width: 1400px;
+    height: 221px;
+    left: 0;
+    right: 0;
+    top: 2094px;
+    bottom: 0;
+    background-image: url(images/down.png);
+}
+.kompania {
+    position: absolute;
+    width: 205px;
+    height: 18px;
+    left: 210px;
+    right: 985px;
+    top: 50px;
+    color: rgb(255, 255, 255);
+    font-family: "Noto Sans JP", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: -1px;
+    text-align: left;
+}
+
+.menu_2 {
+    position: absolute;
+    width: 130px;
+    height: 18px;
+    left: 560px;
+    right: 791px;
+    top: 2138.34px;
+    bottom: 158.66px;
+    color: rgb(255, 255, 255);
+    font-family: "Noto Sans JP", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: -1px;
+    text-align: left;
+}
+
+.open-modal {
+    position: absolute;
+    width: 170px;
+    height: 31px;
+    left: 1020px;
+    right: 209.31px;
+    top: 130px;
+    bottom: 2159.29px;
+    color: rgb(118, 118, 118);
+    font-family: "Noto Sans JP", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: -1px;
+    text-align: left;
+    border-bottom: 2px dashed;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 999;
+}
+
+.modal {
+    position: absolute;
+    left: 675px;
+    top: 650px;
+    transform: translate(-50%, -50%);
+    width: 466px;
+    height: 700px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    display: none;
+    z-index: 1000;
+}
+
+/* Кнопка закрытия */
+.close-modal {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 505px;
+    top: -25px;
+    background-image: url(images/cros.png);
+}
+
+#modal:target, #modal:target + .overlay {
+    display: block;
+}
+
+.Text {
+    color: rgb(83, 83, 83);
+    font-family: "Noto Sans JP", serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    padding-left: 125px;
+    text-align: left;
+}
+.info {
+    color: rgb(83, 83, 83);
+    font-family: "Noto Sans JP", serif;
+}
+
+input {
+    width: 341.08px;
+    height: 42.09px;
+}
+
+textarea {
+    width: 341.08px;
+    height: 142.08px;
+}
+
+.submit {
+    position: fixed;
+    background-color: rgb(94, 94, 94);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 55px;
+    left: 185px;
+    font-family: "Noto Sans JP", serif;
+    font-size: 20px;
+}
