@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+.header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0px 10px 10px rgb(204, 204, 204);
+}
+
+.logo {
+    position: absolute;
+    width: 80px;
+    left: 68.3px;
+}
+
+.logo_name{
+    position: absolute;
+    width: 250px;
+    height: 74px;
+    left: 151px;
+
+    color: rgb(114, 115, 116);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.menu {
+    position: absolute;
+    width: 1050px;
+    height: 18px;
+    left: 850px;
+    top: 32px;
+}
+.menu p {
+    display: inline;
+    padding-left: 20px;
+
+    color: rgb(139, 157, 230);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.menu p:hover {
+    color: rgb(18, 40, 97);
+    cursor: pointer;
+}
+
+.way {
+    position: absolute;
+    width:385px;
+    height: 23px;
+    left: 74px;
+    top: 98px;
+}
+.way p {
+    display: inline;
+    color: rgb(77, 104, 125);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.way .general {
+    color: rgb(139, 157, 230);
+}
+.way img {  
+    position: absolute;
+    width: 15px;
+    right: 250px;
+    top: -5px;
+    bottom: 1474px;
+}
+
+.bigText {
+    position: absolute;
+    width: 565px;
+    height: 175px;
+    left: 74px;
+    top: 10px;
+
+    color: rgb(243, 243, 248);
+    font-family: Montserrat;
+    font-size: 245px;
+    font-weight: 400;
+    line-height: 176px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.TextInBig {
+    position: absolute;
+    width: 600px;
+    height: 51px;
+    left: 76px;
+    top: 310px;
+
+    color: rgb(18, 40, 97);
+    font-family: Montserrat;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.search-wrapper {
+    position: absolute;
+    width: 700px;
+    height: 63px;
+    left: 400px;
+    top: 500px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Расстояние между полем ввода и кнопкой */
+    z-index: 1;
+}
+
+.search-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 750px;
+    padding: 10px;
+    color: #555;
+
+    color: rgb(114, 115, 116);
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.search-line {
+    width: 100%;
+    height: 2px;
+    background-color: #6c7ae0; /* Синяя линия */
+    margin-top: 5px;
+}
+
+.search-quote {
+    font-size: 14px;
+    color: rgb(196, 196, 196);
+    font-family: Montserrat;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.search-button {
+    position: absolute;
+    width: 325px;
+    top: -20px;
+    height: 70px;
+    left: 800px;
+    border: none;
+    background: #a0a9f0;
+    color: white;
+    padding: 10px 25px;
+    font-size: 14px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.search-button:hover {
+    background: #8c98e0;
+}
+
+.cov-up {
+    position: absolute;
+    left: 10px;
+    top: 90px;
+}
+.cov-down {
+    position: absolute;
+    left: 640px;
+    top: 100px;
+}
+
+.naideno {
+    position: absolute;
+    width: 489px;
+    height: 63px;
+    left: 400px;
+    top: 600px;
+
+    color: rgb(114, 115, 116);
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 100;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.news {
+    position: absolute;
+    width: 657px;
+    height: 19px;
+    left: 400px;
+    top: 690px;
+
+    color: rgb(114, 115, 116);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.news_text {
+    position: absolute;
+    width: 900px;
+    height: 72px;
+    left: 400px;
+    top: 750px;
+
+    color: rgb(139, 157, 230);
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+}
+
+.events {
+    position: absolute;
+    width: 657px;
+    height: 19px;
+    left: 400px;
+    top: 890px;
+
+    color: rgb(114, 115, 116);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.events_text {
+    position: absolute;
+    width: 900px;
+    height: 72px;
+    left: 400px;
+    top: 950px;
+
+    color: rgb(139, 157, 230);
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+}
+
+.prezentation {
+    position: absolute;
+    width: 657px;
+    height: 19px;
+    left: 400px;
+    top: 1090px;
+
+    color: rgb(114, 115, 116);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.prezentation_text {
+    position: absolute;
+    width: 900px;
+    height: 72px;
+    left: 400px;
+    top: 1150px;
+
+    color: rgb(139, 157, 230);
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+}
+
+.pages {
+    position: absolute;
+    width: 500px;
+    height: 36px;
+    left: 531px;
+    right: 517px;
+    top: 1350px;
+    bottom: 727px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pages p {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    background-color: rgb(139, 157, 230);
+    margin: 8px;
+}
+
+.pages p:first-child {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    right: -59.5px;
+    top: 1700px;
+}
+
+footer .logo {
+    position: absolute;
+    width: 150px;
+    left: 58px;
+    right: 1150.19px;
+    top: 78px;
+}
+footer .logo_name {
+    position: absolute;
+    width: 362px;
+    height: 72px;
+    left: 200px;
+    top: 78px;
+
+    color: rgb(139, 157, 230);
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+footer .logo_text {
+    position: absolute;
+    width: 322px;
+    height: 243px;
+    left: 200px;
+    top: 175px;
+
+    color: rgb(18, 40, 97);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer_menu {
+    /* column */
+    position: absolute;
+    width: 1000px;
+    height: 156px;
+    right: 150px;
+    top: 85px;
+}
+
+.footer_menu p {
+    display: inline;
+
+    padding-left: 240px;
+    right: 50px;
+    color: rgb(139, 157, 230);
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 250;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.footer_menu p:hover {
+    color: rgb(18, 40, 97);
+    cursor: pointer;
+}
+
+.sites {
+    position: absolute;
+    width: 425px;
+    margin-top: -90px;
+    right: -100px;
+}
+
+.silki {
+    position: absolute;
+    width: 67px;
+    height: 57px;
+    right: 200px;
+    top: 40px;
+}
+
+.silki img {
+    width: 150px;
+}
+
+footer .line {
+    position: absolute;
+    width: 1690px;
+    height: 2px;
+    top: 550px;
+    left: 4%;
+}
+
+.lib {
+    position: absolute;
+    width: 1144px;
+    height: 32px;
+    left: 76px;
+    top: 575px;
+
+    color: rgb(114, 115, 116);
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.cho {
+    position: absolute;
+    width: 175px;
+    right: 300px;
+    top: 575px;
+}
